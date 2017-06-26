@@ -1088,6 +1088,11 @@ define(function () {
 		js: ['connectors/npr.js'],
 		version: 2
 	}, {
+		label: 'CPR',
+		matches: ['*://www.cpr.org/*'],
+		js: ['connectors/cpr.js'],
+		version: 2
+	},{
 		label: 'Torch Music',
 		matches: ['*://music.torchbrowser.com/*'],
 		js: ['connectors/torchbrowser.js']
